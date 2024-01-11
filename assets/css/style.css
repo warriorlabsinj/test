@@ -97,6 +97,7 @@ h6 {
 #header.header-scrolled {
   background: rgba(252, 17, 5, 0.9);
   padding: 12px;
+   color: #FFFFFF;
 }
 
 #header .logo h1 {
@@ -107,9 +108,12 @@ h6 {
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
+  color: #E02B0A;
 }
 
-#header .logo h1 a,
+#header .logo h1 a: {
+	color: #E02B0A;
+}
 #header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
@@ -585,7 +589,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center no-repeat;
+  background: #000000;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -598,7 +602,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(0, 0, 0, 0.75);
   z-index: 9;
 }
 
@@ -614,12 +618,13 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #2f4d5a;
+  color: #F00505;
   margin-bottom: 30px;
 }
 
 .about .content p {
   margin-bottom: 30px;
+  color: #FCFCFC;
 }
 
 .about .content .about-btn {
@@ -640,7 +645,8 @@ section {
 }
 
 .about .content .about-btn:hover {
-  background: #7bbad7;
+  background: #EBECEC;
+  color: #080100;
 }
 
 .about .icon-boxes .icon-box {
@@ -657,11 +663,12 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
+  color: #FFC1C1;
 }
 
 .about .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #FEF7F7;
 }
 
 @media (max-width: 1200px) {
