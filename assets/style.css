@@ -1,10 +1,10 @@
 input:not([type="submit"]) {
-    padding: 0.75rem;
+    padding: 0.95rem;
     border-radius: 0.25rem;
     outline: 0;
     border: 1px solid #fff;
     background: 0 0;
-    color: #94949c;
+    color: #FBFBFF;
     font-weight: 300;
 }
 input:not([type="submit"])::placeholder {
@@ -20,10 +20,10 @@ input:not([type="submit"]):placeholder-shown {
     background: 0 0;
 }
 input:not([type="submit"]):not(:placeholder-shown) {
-    background-color: #e6e6e6;
+    background-color: #484848;
 }
 input:not([type="submit"]):not(:focus):not(:placeholder-shown):valid {
-    border: 1px solid #00a34a;
+    border: 1px solid #EC0707;
 }
 input:not([type="submit"]):not(:focus):not(:placeholder-shown):invalid {
     border: 1px solid #a30008;
@@ -34,7 +34,7 @@ input:not([type="submit"]):placeholder-shown:valid:not(:focus) {
     border: 1px solid grey;
 }
 input:not([type="submit"]):focus {
-    background-color: #3c3c44;
+    background-color: #0C0200;
 }
 form:invalid input[type="submit"] {
     opacity: 0.5;
@@ -58,7 +58,9 @@ body {
     background: linear-gradient(to bottom right, #fff, grey) fixed;
 }
 .card {
-    width: 40rem;
+    width: 60rem;
+    height: 200px;
+	padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +81,7 @@ body {
 }
 .subscribe {
     flex: 1;
-    margin-left: 2rem;
+    margin-left:1rem;
     color: #fff;
 }
 .subscribe p {
@@ -97,8 +99,8 @@ body {
     border-radius: 0.25rem;
     outline: 0;
     margin-left: 0.5rem;
-    border: 1px solid #93c814;
-    background-color: #93c814;
+    border: 1px solid #C82414;
+    background-color: #C82414;
     color: #303037;
     transition: 0.3s ease-in-out;
 }
